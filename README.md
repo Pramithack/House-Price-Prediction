@@ -65,6 +65,33 @@ This project focuses on predicting house prices using **machine learning techniq
 
 ---
 
+## 💬 User Interaction and Output
+
+When running the notebook:
+- The program first loads and analyzes the dataset automatically.  
+- It displays statistical information and visual insights about housing data.  
+- After training the models, it prints evaluation metrics such as:
+  ```
+  Accuracy on Training Data: ...
+  Accuracy on Testing Data: ...
+  Mean Absolute Error (MAE): ...
+  Mean Squared Error (MSE): ...
+  Root Mean Squared Error (RMSE): ...
+  ```
+- The output helps the user understand how well each model performs.
+- Users can modify input data or features in the notebook to see how predictions change.
+
+*(Example)*  
+If a user provides details like:
+- Number of bedrooms: 3  
+- Bathrooms: 2  
+- Area: 1800 sq.ft  
+- Condition: 4  
+
+The trained model can output an **estimated price** for the house based on learned patterns from the dataset.
+
+---
+
 ## 📈 Model Evaluation
 
 The models are evaluated using the following metrics:
@@ -85,7 +112,7 @@ Root Mean Squared Error (RMSE):  ...
 ## 🔮 Future Enhancements
 - Include more features (e.g., location, amenities, renovation year)
 - Use ensemble models like Random Forest or XGBoost
-- Build a web app using Flask or Streamlit for live predictions
+- Build a web app using Flask or Streamlit for live user input and predictions
 
 ---
 
@@ -102,12 +129,13 @@ house-price-prediction/
 ## 🏁 Conclusion
 
 This project demonstrates the complete workflow of a **machine learning regression problem** — from data cleaning and analysis to model training and evaluation.  
-It highlights how different models like **Linear Regression** and **Decision Tree Regressor** can be used to predict real-world outcomes such as house prices.  
-The results show that with the right data and preprocessing, machine learning can be a powerful tool for accurate price estimation and decision-making in real estate.
+It shows how user-provided housing details can be used to predict accurate house prices using **Linear Regression** and **Decision Tree Regressor** models.  
+The results prove that with good preprocessing and model selection, machine learning can provide valuable insights and reliable predictions in the real estate domain.
 
 ---
 
 ## 👩‍💻 Author
-Pramithack
-pramithackharvi@gmail.com 
+**Pramithack**  
+pramithackoderi@gmail.com
+
 
